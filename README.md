@@ -4,6 +4,14 @@ Repositori ini berisi automation test untuk **Studi Kasus 1 (Booking & Pricing I
 
 Proyek ini dilengkapi dengan **Mock API Server** berbasis Express.js dan SQLite *In-Memory* untuk mensimulasikan transaksi *database* riil secara terisolasi.
 
+## Directory
+.
+├── config/                  # Konfigurasi global (Base URL, Endpoint, Defaukt Header, etc)  
+├── data/                    # Test Data
+├── docs/                    # Dokumentasi Analisis
+├── src/                     # Source Code Backend / Mock API Server
+└── test/                    # Automation Test Script
+
 ## Prerequisites
 1. Install Node.js
 2. Install dependency Mock Server Express.js -> npm install express
