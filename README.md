@@ -9,7 +9,6 @@ Proyek ini dilengkapi dengan **Mock API Server** berbasis Express.js dan SQLite 
 .
 ├── config/                  # Konfigurasi global
 ├── data/                    # Test Data
-├── docs/                    # Dokumentasi Analisis
 ├── src/                     # Source Code Backend / Mock API Server
 └── test/                    # Automation Test Script
 ```
@@ -20,7 +19,7 @@ Proyek ini dilengkapi dengan **Mock API Server** berbasis Express.js dan SQLite 
 3. Install dependency SQLite In-Memory -> npm install better-sqlite3
 4. Install k6
 
-## Step
+## How to Run
 1. Run Server -> node src/server.js
 2. Run Test -> k6 run test/[test_name].test.js
 3. Run Regression Test -> k6 run --vus 2 --iterations 2 test/regression.test.js
